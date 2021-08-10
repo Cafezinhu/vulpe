@@ -6,5 +6,6 @@ export type Parte = {
     imagem: string;
     zIndex: number;
     store: Writable<number>,
-    pecas: Peca[];
+    pecas: Peca[],
+    oculto?: boolean
 }

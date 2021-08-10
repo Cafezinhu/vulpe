@@ -9,5 +9,6 @@ export const nariz: Parte = {
     zIndex: 1,
     pecas: [
         narizPadrao
-    ]
+    ],
+    oculto: true
 }

@@ -9,5 +9,6 @@ export const olhos: Parte = {
     store: olhosStore,
     pecas: [
         olhosPadrao
-    ]
+    ],
+    oculto: true,
 }

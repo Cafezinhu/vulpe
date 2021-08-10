@@ -9,5 +9,6 @@ export const sobrancelhas: Parte = {
     zIndex: 4,
     pecas: [
         sobrancelhasPadrao
-    ]
+    ],
+    oculto: true
 }

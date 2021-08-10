@@ -9,5 +9,6 @@ export const bochechas: Parte = {
     zIndex: 1,
     pecas: [
         bochechasPadrao
-    ]
+    ],
+    oculto: true
 }

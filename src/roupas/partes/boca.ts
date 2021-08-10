@@ -9,5 +9,6 @@ export const boca: Parte = {
     zIndex: 1,
     pecas: [
         bocaPadrao
-    ]
+    ],
+    oculto: true
 }

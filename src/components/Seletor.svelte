@@ -44,7 +44,9 @@
 <aside>
     <header>
         {#each partes as parte, index}
-            <Tab parte={parte} index={index}/>
+            {#if !parte.oculto}
+                <Tab parte={parte} index={index}/>
+            {/if}
         {/each}
     </header>
     <section>
