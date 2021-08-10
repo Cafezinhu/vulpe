@@ -13,9 +13,9 @@ import { torso } from "./partes/torso";
 
 export const partes = [
     corpo,
-    cabelo,
-    franja,
     orelhas,
+    franja,
+    cabelo,
     sobrancelhas,
     olhos,
     nariz,
