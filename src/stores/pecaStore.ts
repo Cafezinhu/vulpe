@@ -1,6 +1,7 @@
 import {writable} from 'svelte/store';
 
 export const corpoStore = writable(0);
+export const chapeuStore = writable(0);
 export const torsoStore = writable(0);
 export const olhosStore = writable(0);
 export const bochechasStore = writable(0);

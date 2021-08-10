@@ -1,6 +1,7 @@
 import { boca } from "./partes/boca";
 import { bochechas } from "./partes/bochechas";
 import { cabelo } from "./partes/cabelo";
+import { chapeu } from "./partes/chapeu";
 import { corpo } from "./partes/corpo";
 import { franja } from "./partes/franja";
 import { nariz } from "./partes/nariz";
@@ -13,6 +14,7 @@ import { torso } from "./partes/torso";
 
 export const partes = [
     corpo,
+    chapeu,
     orelhas,
     franja,
     cabelo,
