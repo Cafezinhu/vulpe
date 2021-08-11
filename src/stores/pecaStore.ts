@@ -8,6 +8,7 @@ export const bochechasStore = writable(0);
 export const narizStore = writable(0);
 export const sobrancelhasStore = writable(0);
 export const bocaStore = writable(0);
+export const meiasStore = writable(0);
 export const orelhasStore = writable(1);
 export const franjaStore = writable(1);
 export const cabeloStore = writable(1);
