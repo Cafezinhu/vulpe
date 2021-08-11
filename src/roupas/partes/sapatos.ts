@@ -7,9 +7,9 @@ export const sapatos: Parte = {
     imagem: "/images/sapatos-padrao.png",
     nome: "Sapatos",
     store: sapatosStore,
-    zIndex: 1,
+    zIndex: 2,
     pecas: [
         transparente,
-        sapatosPadrao
+        sapatosPadrao,
     ]
 }
