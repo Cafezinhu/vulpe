@@ -24,4 +24,4 @@ import { onDestroy } from "svelte";
     }
 </style>
 
-<img style="--zIndex: {parte.zIndex}" src={peca.image} alt={parte.nome}>
+<img style="--zIndex: {peca.sobreposicaoZIndex ? peca.sobreposicaoZIndex : parte.zIndex}" src={peca.image} alt={parte.nome}>
