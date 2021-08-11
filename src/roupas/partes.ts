@@ -1,3 +1,4 @@
+import { asas } from "./partes/asas";
 import { boca } from "./partes/boca";
 import { bochechas } from "./partes/bochechas";
 import { cabelo } from "./partes/cabelo";
@@ -15,7 +16,6 @@ import { torso } from "./partes/torso";
 
 export const partes = [
     corpo,
-    chapeu,
     orelhas,
     franja,
     cabelo,
@@ -24,8 +24,10 @@ export const partes = [
     nariz,
     bochechas,
     boca,
+    chapeu,
     torso,
     rabo,
+    asas,
     sapatos,
     meias
 ];
