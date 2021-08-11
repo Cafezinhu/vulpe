@@ -4,6 +4,7 @@ import { meiaBobEsponja } from "../pecas/meias/meiaBobEsponja";
 import { meiaBobEsponjaL } from "../pecas/meias/meiaBobEsponjaL";
 import { meiaDeRede } from "../pecas/meias/meiaDeRede";
 import { meiaDeRedeL } from "../pecas/meias/meiaDeRedeL";
+import { meiaMaid } from "../pecas/meias/meiaMaid";
 import { meiaPretaListrasBrancas } from "../pecas/meias/meiaPretaListrasBrancas";
 import { meiaPretaListrasBrancasL } from "../pecas/meias/meiaPretaListrasBrancasL";
 import { transparente } from "../pecas/transparente";
@@ -20,6 +21,7 @@ export const meias: Parte = {
         meiaDeRede,
         meiaDeRedeL,
         meiaPretaListrasBrancas,
-        meiaPretaListrasBrancasL
+        meiaPretaListrasBrancasL,
+        meiaMaid
     ]
 }
