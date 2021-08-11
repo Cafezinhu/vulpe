@@ -1,6 +1,8 @@
 import { chapeuStore } from "../../stores/pecaStore";
 import type { Parte } from "../../types/parte";
+import { chapeuCozinheira } from "../pecas/chapeu/chapeuCozinheira";
 import { chapeuPreto } from "../pecas/chapeu/chapeuPreto";
+import { tiaraMaid } from "../pecas/chapeu/tiaraMaid";
 import { transparente } from "../pecas/transparente";
 
 
@@ -11,6 +13,8 @@ export const chapeu: Parte = {
     zIndex: 5,
     pecas: [
         transparente,
-        chapeuPreto
+        chapeuPreto,
+        chapeuCozinheira,
+        tiaraMaid
     ]
 }
