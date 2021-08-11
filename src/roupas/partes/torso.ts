@@ -5,7 +5,7 @@ import { vestidinho } from "../pecas/torso/vestidinho";
 import { vestidoPadrao } from "../pecas/torso/vestidoPadrao";
 
 export const torso: Parte = {
-    imagem: "/images/corpo-padrao.png",
+    imagem: "/images/vestido-padrao.png",
     nome: "Torso",
     zIndex: 1,
     store: torsoStore,
