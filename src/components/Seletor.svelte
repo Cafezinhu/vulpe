@@ -33,10 +33,9 @@
 
     section{
         padding: 1rem;
-        flex: 1;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(3, 1fr);
         gap: 1rem;
     }
 </style>
