@@ -1,5 +1,6 @@
 <script lang="ts">
-    import Roupa from "./components/Roupa.svelte";
+    import Carregando from "./components/Carregando.svelte";
+import Roupa from "./components/Roupa.svelte";
     import Seletor from "./components/Seletor.svelte";
     import { partes } from "./roupas/partes";
 
@@ -7,6 +8,7 @@
 </script>
 
 <main>
+    <Carregando />
     <div class="roupas">
         {#each partes as parte}
             <Roupa parte={parte} />
