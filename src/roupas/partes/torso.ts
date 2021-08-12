@@ -8,7 +8,10 @@ import { terno } from "../pecas/torso/terno";
 import { vestidinho } from "../pecas/torso/vestidinho";
 import { vestidoMaid } from "../pecas/torso/vestidoMaid";
 import { vestidoPadrao } from "../pecas/torso/vestidoPadrao";
-import { vestidoValquiria } from "../pecas/torso/vestidoValquiria";
+import { vestidoCupido } from "../pecas/torso/vestidoCupido";
+import { vestidoColegial } from "../pecas/torso/vestidoColegial";
+import { roupaCrupie } from "../pecas/torso/roupaCrupie";
+import { roupaFutebol } from "../pecas/torso/roupaFutebol";
 
 export const torso: Parte = {
     imagem: "/images/vestido-padrao.png",
@@ -20,8 +23,11 @@ export const torso: Parte = {
         terno,
         vestidinho,
         dino,
-        vestidoValquiria,
+        vestidoCupido,
         vestidoMaid,
+        vestidoColegial,
+        roupaCrupie,
+        roupaFutebol,
         biquini,
         roupaDemon,
         cozinheira
