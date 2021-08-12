@@ -11,6 +11,7 @@ import { nariz } from "./partes/nariz";
 import { oculos } from "./partes/oculos";
 import { olhos } from "./partes/olhos";
 import { orelhas } from "./partes/orelhas";
+import { pernas } from "./partes/pernas";
 import { rabo } from "./partes/rabo";
 import { sapatos } from "./partes/sapatos";
 import { sobrancelhas } from "./partes/sobrancelhas";
@@ -29,6 +30,7 @@ export const partes = [
     boca,
     chapeu,
     torso,
+    pernas,
     rabo,
     asas,
     luvas,
