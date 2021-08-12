@@ -5,7 +5,7 @@ import { mangasMiku } from "../pecas/luvas/mangasMiku";
 import { transparente } from "../pecas/transparente";
 
 export const luvas: Parte = {
-    imagem: '/images/luvas-futebol.png',
+    imagem: '/images/maos.png',
     nome: 'Luvas',
     zIndex: 1,
     store: luvasStore,

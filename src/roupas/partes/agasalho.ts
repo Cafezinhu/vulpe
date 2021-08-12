@@ -4,7 +4,7 @@ import { jaqueta } from "../pecas/agasalho/jaqueta";
 import { transparente } from "../pecas/transparente";
 
 export const agasalho: Parte = {
-    imagem: "/images/casaco.png",
+    imagem: "/images/jaqueta.png",
     nome: "Agasalho",
     zIndex: 5,
     store: agasalhoStore,

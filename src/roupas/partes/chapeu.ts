@@ -9,7 +9,7 @@ import { transparente } from "../pecas/transparente";
 
 
 export const chapeu: Parte = {
-    imagem: "/images/chapeu-preto.png",
+    imagem: "/images/chapeu.png",
     nome: "Chapéu",
     store: chapeuStore,
     zIndex: 5,

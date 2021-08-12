@@ -5,7 +5,7 @@ import { oculosCha } from "../pecas/oculos/oculosCha";
 import { transparente } from "../pecas/transparente";
 
 export const oculos: Parte = {
-    imagem: '/images/oculos-cha.png',
+    imagem: '/images/oculos.png',
     nome: "óculos",
     store: oculosStore,
     zIndex: 3,

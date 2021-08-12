@@ -5,7 +5,7 @@ import { narizHorny } from "../pecas/nariz/narizHorny";
 import { narizPadrao } from "../pecas/nariz/narizPadrao";
 
 export const nariz: Parte = {
-    imagem: "/images/nariz-padrao.png",
+    imagem: "/images/nariz.png",
     nome: "Nariz",
     store: narizStore,
     zIndex: 1,

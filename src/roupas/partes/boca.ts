@@ -7,7 +7,7 @@ import { bocaPadrao } from "../pecas/boca/bocaPadrao";
 
 export const boca: Parte = {
     nome: "Boca",
-    imagem: "/images/boca-padrao.png",
+    imagem: "/images/boca.png",
     store: bocaStore,
     zIndex: 1,
     pecas: [

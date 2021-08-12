@@ -13,7 +13,7 @@ import { olhosX } from "../pecas/olhos/olhosX";
 import { olhosFechados } from "../pecas/olhos/olhosFechados";
 
 export const olhos: Parte = {
-    imagem: "/images/olhos-padrao.png",
+    imagem: "/images/olhos.png",
     nome: "Olhos",
     zIndex: 2,
     store: olhosStore,

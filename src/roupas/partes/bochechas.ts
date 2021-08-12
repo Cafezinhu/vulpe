@@ -6,7 +6,7 @@ import { bochechasRosadas } from "../pecas/bochechas/bochechasRosadas";
 
 export const bochechas: Parte = {
     nome: "Bochechas",
-    imagem: "/images/bochechas-padrao.png",
+    imagem: "/images/bochechas.png",
     store: bochechasStore,
     zIndex: 1,
     pecas: [

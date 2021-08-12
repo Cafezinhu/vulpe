@@ -8,7 +8,7 @@ import { transparente } from "../pecas/transparente";
 
 export const pernas: Parte = {
     nome: "Pernas",
-    imagem: "/images/saia-noami.png",
+    imagem: "/images/pernas.png",
     store: pernasStore,
     zIndex: 2,
     pecas:[

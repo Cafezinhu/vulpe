@@ -9,7 +9,7 @@ import { tenisFutebol } from "../pecas/sapatos/tenisFutebol";
 import { transparente } from "../pecas/transparente";
 
 export const sapatos: Parte = {
-    imagem: "/images/sapatos-padrao.png",
+    imagem: "/images/sapatos.png",
     nome: "Sapatos",
     store: sapatosStore,
     zIndex: 2,

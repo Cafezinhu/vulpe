@@ -10,7 +10,7 @@ import { meiaPretaListrasBrancasL } from "../pecas/meias/meiaPretaListrasBrancas
 import { transparente } from "../pecas/transparente";
 
 export const meias: Parte = {
-    imagem: "/images/meia listras L.png",
+    imagem: "/images/meias.png",
     nome: "Meias",
     zIndex: 1,
     store: meiasStore,
