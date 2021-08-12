@@ -1,3 +1,4 @@
+import { agasalho } from "./partes/agasalho";
 import { asas } from "./partes/asas";
 import { boca } from "./partes/boca";
 import { bochechas } from "./partes/bochechas";
@@ -29,6 +30,7 @@ export const partes = [
     bochechas,
     boca,
     chapeu,
+    agasalho,
     torso,
     pernas,
     rabo,
