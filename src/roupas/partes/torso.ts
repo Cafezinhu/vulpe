@@ -39,7 +39,6 @@ export const torso: Parte = {
         harin,
         cozinheira,
         blusaNoami,
-        top,
-        jaqueta
+        top
     ]
 }

@@ -11,6 +11,5 @@ export const agasalho: Parte = {
     pecas: [
         transparente,
         jaqueta
-    ],
-    oculto: true
+    ]
 }
