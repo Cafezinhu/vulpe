@@ -5,6 +5,7 @@ import { chapeuCrupie } from "../pecas/chapeu/chapeuCrupie";
 import { chapeuPreto } from "../pecas/chapeu/chapeuPreto";
 import { chifresDemon } from "../pecas/chapeu/chifresDemon";
 import { tiaraMaid } from "../pecas/chapeu/tiaraMaid";
+import { tiaraValquiria } from "../pecas/chapeu/tiaraValquiria";
 import { transparente } from "../pecas/transparente";
 
 
@@ -19,6 +20,7 @@ export const chapeu: Parte = {
         chapeuCozinheira,
         tiaraMaid,
         chapeuCrupie,
-        chifresDemon
+        chifresDemon,
+        tiaraValquiria
     ]
 }

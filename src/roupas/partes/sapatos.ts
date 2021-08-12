@@ -2,6 +2,7 @@ import { sapatosStore } from "../../stores/pecaStore";
 import type { Parte } from "../../types/parte";
 import { botasDemon } from "../pecas/sapatos/botasDemon";
 import { botasMiku } from "../pecas/sapatos/botasMiku";
+import { botasValquiria } from "../pecas/sapatos/botasValquiria";
 import { sapatinhosMaid } from "../pecas/sapatos/sapatinhosMaid";
 import { sapatinhosNoami } from "../pecas/sapatos/sapatinhosNoami";
 import { sapatosPadrao } from "../pecas/sapatos/sapatosPadrao";
@@ -22,6 +23,7 @@ export const sapatos: Parte = {
         botasDemon,
         tenisFutebol,
         botasMiku,
-        tenisBunny
+        tenisBunny,
+        botasValquiria
     ]
 }

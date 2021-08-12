@@ -4,6 +4,7 @@ import { asasDemon } from "../pecas/asas/asasDemon";
 import { asasCupido } from "../pecas/asas/asasCupido";
 import { transparente } from "../pecas/transparente";
 import { machados } from "../pecas/asas/machados";
+import { asasValquiria } from "../pecas/asas/asasValquiria";
 
 export const asas: Parte = {
     imagem: "/images/asas-cupido.png",
@@ -14,6 +15,7 @@ export const asas: Parte = {
         transparente,
         asasCupido,
         asasDemon,
-        machados
+        machados,
+        asasValquiria
     ]
 }

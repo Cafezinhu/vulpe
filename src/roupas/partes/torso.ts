@@ -20,6 +20,7 @@ import { praia } from "../pecas/torso/praia";
 import { kratos } from "../pecas/torso/kratos";
 import { vestidoPaneko } from "../pecas/torso/vestidoPaneko";
 import { camisaBunny } from "../pecas/torso/camisaBunny";
+import { peitoralValquiria } from "../pecas/torso/peitoralValquiria";
 
 export const torso: Parte = {
     imagem: "/images/camisa.png",
@@ -47,5 +48,6 @@ export const torso: Parte = {
         top,
         vestidoPaneko,
         camisaBunny,
+        peitoralValquiria
     ]
 }
