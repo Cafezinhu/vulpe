@@ -13,6 +13,7 @@ import { vestidoColegial } from "../pecas/torso/vestidoColegial";
 import { roupaCrupie } from "../pecas/torso/roupaCrupie";
 import { roupaFutebol } from "../pecas/torso/roupaFutebol";
 import { vestidoMiku } from "../pecas/torso/vestidoMiku";
+import { harin } from "../pecas/torso/harin";
 
 export const torso: Parte = {
     imagem: "/images/vestido-padrao.png",
@@ -32,6 +33,7 @@ export const torso: Parte = {
         biquini,
         roupaDemon,
         vestidoMiku,
+        harin,
         cozinheira,
     ]
 }
