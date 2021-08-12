@@ -17,9 +17,11 @@ import { rabo } from "./partes/rabo";
 import { sapatos } from "./partes/sapatos";
 import { sobrancelhas } from "./partes/sobrancelhas";
 import { torso } from "./partes/torso";
+import { background } from "./partes/background";
 
 export const partes = [
     corpo,
+    background,
     orelhas,
     franja,
     cabelo,

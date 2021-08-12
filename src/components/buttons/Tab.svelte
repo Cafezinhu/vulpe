@@ -28,6 +28,7 @@ import { parteStore } from "../../stores/parteStore";
 
     img{
         height: 4rem;
+        width: 4rem;
     }
 </style>
 

@@ -17,6 +17,9 @@ import { harin } from "../pecas/torso/harin";
 import { blusaNoami } from "../pecas/torso/blusaNoami";
 import { top } from "../pecas/torso/top";
 import { jaqueta } from "../pecas/agasalho/jaqueta";
+import { praia } from "../pecas/torso/praia";
+import { kratos } from "../pecas/torso/kratos";
+import { vestidoPaneko } from "../pecas/torso/vestidoPaneko";
 
 export const torso: Parte = {
     imagem: "/images/vestido-padrao.png",
@@ -37,8 +40,11 @@ export const torso: Parte = {
         roupaDemon,
         vestidoMiku,
         harin,
+        praia,
+        kratos,
         cozinheira,
         blusaNoami,
-        top
+        top,
+        vestidoPaneko
     ]
 }

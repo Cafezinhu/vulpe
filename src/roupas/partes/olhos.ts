@@ -5,9 +5,12 @@ import { olhosDemonPiscandoDireito } from "../pecas/olhos/olhosDemonPiscandoDire
 import { olhosDemonPiscandoEsquerdo } from "../pecas/olhos/olhosDemonPiscandoEsquerdo";
 import { olhosFelizes } from "../pecas/olhos/olhosFelizes";
 import { olhosNormais } from "../pecas/olhos/olhosNormais";
+import { olhosO } from "../pecas/olhos/olhosO";
 import { olhosPadrao } from "../pecas/olhos/olhosPadrao";
 import { olhosPiscandoDireito } from "../pecas/olhos/olhosPiscandoDireito";
 import { olhosPiscandoEsquerdo } from "../pecas/olhos/olhosPiscandoEsquerdo";
+import { olhosX } from "../pecas/olhos/olhosX";
+import { olhosFechados } from "../pecas/olhos/olhosFechados";
 
 export const olhos: Parte = {
     imagem: "/images/olhos-padrao.png",
@@ -22,6 +25,9 @@ export const olhos: Parte = {
         olhosDemon,
         olhosDemonPiscandoEsquerdo,
         olhosDemonPiscandoDireito,
-        olhosFelizes
+        olhosFelizes,
+        olhosX,
+        olhosO,
+        olhosFechados
     ],
 }

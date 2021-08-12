@@ -18,7 +18,7 @@
 
 <style>
     aside{
-        background-color: rgb(206, 206, 206);
+        background-color: rgba(206, 206, 206, 0.5);
         width: 20rem;
         display: flex;
         flex-direction: column;

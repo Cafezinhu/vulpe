@@ -16,7 +16,7 @@ import type { Writable } from "svelte/store";
 
 <style>
     button{
-        background-color: var(--color);
+        background-color: #f1f1f1;
         display: grid;
         justify-items: center;
         padding: .5rem;
@@ -29,10 +29,11 @@ import type { Writable } from "svelte/store";
 
     img{
         height: 4rem;
+        width: 4rem;
     }
 </style>
 
-<button style={`--color: ${peca.buttonColor ? peca.buttonColor : '#f1f1f1'}`} on:click={selecionarPeca}>
+<button on:click={selecionarPeca}>
     {#if peca.image != ""}
         <img src={peca.image} alt={peca.nome}>
     {/if}

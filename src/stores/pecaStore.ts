@@ -35,7 +35,7 @@ function createTorso()
     return {
         subscribe,
         set: (i: number) => {
-            if(i >= 13) 
+            if(i >= 15) 
             {
                 set(i);
                 pernasStore.update(value => {
@@ -63,6 +63,7 @@ export const asasStore = writable(0);
 export const oculosStore = writable(0);
 export const luvasStore = writable(0);
 export const agasalhoStore = writable(0);
+export const backgroundStore = writable(0);
 export const orelhasStore = writable(1);
 export const franjaStore = writable(1);
 export const cabeloStore = writable(1);

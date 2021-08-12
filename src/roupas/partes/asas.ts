@@ -3,6 +3,7 @@ import type { Parte } from "../../types/parte";
 import { asasDemon } from "../pecas/asas/asasDemon";
 import { asasCupido } from "../pecas/asas/asasCupido";
 import { transparente } from "../pecas/transparente";
+import { machados } from "../pecas/asas/machados";
 
 export const asas: Parte = {
     imagem: "/images/asas-cupido.png",
@@ -12,6 +13,7 @@ export const asas: Parte = {
     pecas: [
         transparente,
         asasCupido,
-        asasDemon
+        asasDemon,
+        machados
     ]
 }
