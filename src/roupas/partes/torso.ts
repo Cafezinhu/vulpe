@@ -1,5 +1,6 @@
 import { torsoStore } from "../../stores/pecaStore";
 import type { Parte } from "../../types/parte";
+import { biquini } from "../pecas/torso/biquini";
 import { cozinheira } from "../pecas/torso/cozinheira";
 import { dino } from "../pecas/torso/dino";
 import { terno } from "../pecas/torso/terno";
@@ -20,6 +21,7 @@ export const torso: Parte = {
         dino,
         vestidoValquiria,
         vestidoMaid,
+        biquini,
         cozinheira
     ]
 }
