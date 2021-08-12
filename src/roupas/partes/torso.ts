@@ -3,6 +3,7 @@ import type { Parte } from "../../types/parte";
 import { biquini } from "../pecas/torso/biquini";
 import { cozinheira } from "../pecas/torso/cozinheira";
 import { dino } from "../pecas/torso/dino";
+import { roupaDemon } from "../pecas/torso/roupaDemon";
 import { terno } from "../pecas/torso/terno";
 import { vestidinho } from "../pecas/torso/vestidinho";
 import { vestidoMaid } from "../pecas/torso/vestidoMaid";
@@ -22,6 +23,7 @@ export const torso: Parte = {
         vestidoValquiria,
         vestidoMaid,
         biquini,
+        roupaDemon,
         cozinheira
     ]
 }

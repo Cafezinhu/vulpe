@@ -1,5 +1,6 @@
 import { asasStore } from "../../stores/pecaStore";
 import type { Parte } from "../../types/parte";
+import { asasDemon } from "../pecas/asas/asasDemon";
 import { asasValquiria } from "../pecas/asas/asasValquiria";
 import { transparente } from "../pecas/transparente";
 
@@ -10,6 +11,7 @@ export const asas: Parte = {
     zIndex: -2,
     pecas: [
         transparente,
-        asasValquiria
+        asasValquiria,
+        asasDemon
     ]
 }

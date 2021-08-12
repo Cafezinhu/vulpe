@@ -1,6 +1,7 @@
 import { raboStore } from "../../stores/pecaStore";
 import type { Parte } from "../../types/parte";
 import { rabao } from "../pecas/rabo/rabao";
+import { raboDemon } from "../pecas/rabo/raboDemon";
 import { raboPadrao } from "../pecas/rabo/raboPadrao";
 import { transparente } from "../pecas/transparente";
 
@@ -12,6 +13,7 @@ export const rabo: Parte = {
     pecas: [
         transparente,
         raboPadrao,
-        rabao
+        rabao,
+        raboDemon
     ]
 }
