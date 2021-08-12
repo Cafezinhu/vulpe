@@ -2,7 +2,53 @@ import {writable} from 'svelte/store';
 
 export const corpoStore = writable(0);
 export const chapeuStore = writable(0);
-export const torsoStore = writable(0);
+
+
+const perigo = writable(false);
+
+function createPernas ()
+{
+    const {subscribe, set} = writable(0);
+
+    return{
+        subscribe,
+        set: (i: number) => {
+            perigo.update(value => {
+                if(i === 0 && value === true)
+                {
+                    return value;
+                }
+                set(i);
+                return value;
+            });
+        }
+    }
+}
+
+export const pernasStore = createPernas();
+
+function createTorso()
+{
+    const {subscribe, set} = writable(0);
+
+    return {
+        subscribe,
+        set: (i: number) => {
+            if(i >= 13) 
+            {
+                set(i);
+                pernasStore.set(1);
+                perigo.set(true);
+                return;
+            }
+            set(i);
+            perigo.set(false);
+        }
+    }
+}
+
+export const torsoStore = createTorso();
+
 export const olhosStore = writable(0);
 export const bochechasStore = writable(0);
 export const narizStore = writable(0);
@@ -12,7 +58,6 @@ export const meiasStore = writable(0);
 export const asasStore = writable(0);
 export const oculosStore = writable(0);
 export const luvasStore = writable(0);
-export const pernasStore = writable(0);
 export const agasalhoStore = writable(0);
 export const orelhasStore = writable(1);
 export const franjaStore = writable(1);

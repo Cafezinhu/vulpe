@@ -5,7 +5,7 @@ export type Parte = {
     nome: string;
     imagem: string;
     zIndex: number;
-    store: Writable<number>,
+    store: any,
     pecas: Peca[],
     oculto?: boolean
 }
