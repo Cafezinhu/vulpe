@@ -3,6 +3,7 @@ import type { Parte } from "../../types/parte";
 import { chapeuCozinheira } from "../pecas/chapeu/chapeuCozinheira";
 import { chapeuCrupie } from "../pecas/chapeu/chapeuCrupie";
 import { chapeuPreto } from "../pecas/chapeu/chapeuPreto";
+import { chifresDemon } from "../pecas/chapeu/chifresDemon";
 import { tiaraMaid } from "../pecas/chapeu/tiaraMaid";
 import { transparente } from "../pecas/transparente";
 
@@ -17,6 +18,7 @@ export const chapeu: Parte = {
         chapeuPreto,
         chapeuCozinheira,
         tiaraMaid,
-        chapeuCrupie
+        chapeuCrupie,
+        chifresDemon
     ]
 }
