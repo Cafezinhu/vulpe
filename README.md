@@ -1,4 +1,4 @@
-#Jogo de vestir a Feneko
+# Jogo de vestir a Feneko
 
 Este é um jogo inspirado em jogos de vestir barbie feito em homenagem ao aniversário da Feneko Amy.
 
