@@ -8,7 +8,7 @@ const perigo = writable(false);
 
 function createPernas ()
 {
-    const {subscribe, set} = writable(0);
+    const {subscribe, set, update} = writable(0);
 
     return{
         subscribe,
@@ -21,7 +21,8 @@ function createPernas ()
                 set(i);
                 return value;
             });
-        }
+        },
+        update
     }
 }
 
@@ -37,7 +38,10 @@ function createTorso()
             if(i >= 13) 
             {
                 set(i);
-                pernasStore.set(1);
+                pernasStore.update(value => {
+                    if(value === 0) return 1;
+                    return value;
+                });
                 perigo.set(true);
                 return;
             }
