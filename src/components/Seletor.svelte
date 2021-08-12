@@ -37,6 +37,8 @@
         justify-items: center;
         grid-template-columns: repeat(3, 1fr);
         gap: 1rem;
+        max-height: calc(100vh - 8.5rem);
+        overflow-y: auto;
     }
 </style>
 
