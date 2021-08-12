@@ -2,6 +2,7 @@
 import { onDestroy } from "svelte";
 
     import Carregando from "./components/Carregando.svelte";
+import Mensagem from "./components/Mensagem.svelte";
     import Roupa from "./components/Roupa.svelte";
     import Seletor from "./components/Seletor.svelte";
     import { partes } from "./roupas/partes";
@@ -16,6 +17,7 @@ import { onDestroy } from "svelte";
     })
 </script>
 
+<Mensagem />
 <main class={`bg${bg+1}`}>
     <Carregando />
     <div class="roupas">

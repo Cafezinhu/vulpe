@@ -1,5 +1,6 @@
 import { pernasStore } from "../../stores/pecaStore";
 import type { Parte } from "../../types/parte";
+import { calcaBunny } from "../pecas/pernas/calcaBunny";
 import { saiaCozinheira } from "../pecas/pernas/saiaCozinheira";
 import { saiaNoami } from "../pecas/pernas/saiaNoami";
 import { saiaPaneko } from "../pecas/pernas/saiaPaneko";
@@ -16,6 +17,7 @@ export const pernas: Parte = {
         saiaNoami,
         short,
         saiaCozinheira,
-        saiaPaneko
+        saiaPaneko,
+        calcaBunny
     ]
 }
