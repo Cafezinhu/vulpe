@@ -1,5 +1,7 @@
 import { bocaStore } from "../../stores/pecaStore";
 import type { Parte } from "../../types/parte";
+import { bocaFaminta } from "../pecas/boca/bocaFaminta";
+import { bocaFeliz } from "../pecas/boca/bocaFeliz";
 import { bocaPadrao } from "../pecas/boca/bocaPadrao";
 
 export const boca: Parte = {
@@ -8,7 +10,8 @@ export const boca: Parte = {
     store: bocaStore,
     zIndex: 1,
     pecas: [
-        bocaPadrao
-    ],
-    oculto: true
+        bocaPadrao,
+        bocaFeliz,
+        bocaFaminta
+    ]
 }
